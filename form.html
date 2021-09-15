@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.67">
+    <title>Formulário CJR</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon_cjr.ico">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <h2>Formulário de trainee CJR</h2>
+
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome">
+
+                        
+            <label for="data" placeholder=" ">Data de Nascimento</label>
+            <input type="date" id="data">
+
+                                
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email">
+
+            <label for="Curso">Curso de graduação</label>
+            <input list="Cursos" />
+                <datalist id="Cursos">
+                    <option value="Ciência da Computação">
+                    <option value="Engenharia da Computação">
+                    <option value="Computação (noturno)">
+                </datalist>
+
+            <!--Marque aqui as tecnologias que já teve contato-->
+            <div id="marakables">
+
+                <div class ="markable">
+                    <a>Linguagens de programação</a>
+
+                    <span>
+                    <input type="checkbox" id="Python">
+                    <label for="python">Python</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" id="Java">
+                    <label for="Java">Java</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" id="JavaScript">
+                    <label for="JavaScript">JavaScript</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" id="C#">
+                    <label for="C">C#</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" id="Ruby">
+                    <label for="Ruby">Ruby</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" id="PHP">
+                    <label for="PHP">PHP</label>
+                    </span>
+
+                </div>
+
+                <div class ="markable">
+                    <a>Frameworks</a>
+
+                    <span>
+                    <input type="checkbox" id="Django">
+                    <label for="django">Django</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" name="React">
+                    <label for="React">React</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" id="Spring">
+                    <label for="Spring">Spring</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" id="ASP.NET">
+                    <label for="ASP.NET">ASP.NET</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" id="Flutter">
+                    <label for="Flutter"> Flutter</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" id="Vue">
+                    <label for="Vue">Vue</label>
+                    </span>
+
+                </div>
+
+                <div class ="markable">
+                    <a>Bancos de dados</a>
+
+                    <span>
+                    <input type="checkbox" id="MongoDB">
+                    <label for="MongoDB">MongoDB</label>
+                    </span>
+ 
+                    <span>
+                    <input type="checkbox" id="PostgreSQl">
+                    <label for="PostgreSQl">PostgreSQl</label>
+                    </span>
+                
+                    <span>
+                    <input type="checkbox" id="MariaDB">
+                    <label for="MariaDB">MariaDB</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" id="MySQL">
+                    <label for="MySQL">MySQL</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" id="GraphQL">
+                    <label for="GraphQL">GraphQL</label>
+                    </span>
+                    
+                    <span>
+                    <input type="checkbox" id="Cassandra">
+                    <label for="Cassandra">Cassandra</label>
+                    </span>
+
+                </div>
+            </div>
+
+            <label for="github">Link do github</label>
+            <input type="url" id="github"placeholder="(opcional)">
+            
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
